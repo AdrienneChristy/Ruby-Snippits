@@ -1,3 +1,5 @@
 Environment is the collection of all variables and their values that exist in the program at a given time.
 
 Control flow gives us the flexibility to select different outcomes depending on information the user types, the result of a computation, or the value returned by another part of the program.
+
+In Ruby, we assign values to variables using =, the assignment operator. But if we've already used = for assignment, how do we check to see if two things are equal? Well, we use ==, which is a comparator (also called a relational operator). == means "is equal to." 
