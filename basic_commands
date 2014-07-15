@@ -33,7 +33,7 @@ is not equal to
 logical or boolean operators:
 Ruby has three: 
 and (&&), or (||), and not (!)
-
+Ruby's || is called an inclusive or because it evaluates to true when one or the other or both expressions are true.
 
 
 
