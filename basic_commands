@@ -23,7 +23,11 @@ capitalizes the first letter of a string and makes the rest of the letters lower
 
 ! at the end of capitalize. This modifies the value contained within the variable answer itself. The next time you use the variable answer you will get the results of answer.capitalize
 
+== 
+is equal to
 
+!=
+is not equal to
 
 # I'm a comment!
 
