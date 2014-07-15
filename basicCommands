@@ -1,0 +1,27 @@
+
+print "Oxnard Montalvo"
+The print command just takes whatever you give it and prints it to the screen.
+
+puts "What's up?"
+puts (for "put string") is slightly different: it adds a new (blank) line after the thing you want it to print.
+
+
+.length 
+outputs length of the string
+"I love espresso".length
+
+.reverse 
+outputs reversed order version of the string
+"String".reverse
+
+.upcase
+
+.downcase
+
+# I'm a comment!
+
+=begin
+I'm a multiline comment!
+I don't need any # symbols.
+Remember begin and end must be on their own lines.
+=end
