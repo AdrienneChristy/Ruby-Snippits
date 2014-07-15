@@ -29,6 +29,16 @@ is equal to
 !=
 is not equal to
 
+
+logical or boolean operators:
+Ruby has three: 
+and (&&), or (||), and not (!)
+
+
+
+
+
+
 # I'm a comment!
 
 =begin
