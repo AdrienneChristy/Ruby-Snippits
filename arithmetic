@@ -1,0 +1,10 @@
+Addition (+)
+Subtraction (-)
+Multiplication (*)
+Division (/)
+Exponentiation (**)
+Modulo (%)
+
+Exponentiation raises one number (the base) to the power of the other (the exponent).
+
+Modulo returns the remainder of division. For example, 25 % 7 would be 4, since 7 goes into 25 3 times with 4 left over.
