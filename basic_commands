@@ -21,6 +21,10 @@ outputs reversed order version of the string
 .capitalize
 capitalizes the first letter of a string and makes the rest of the letters lower case.
 
+! at the end of capitalize. This modifies the value contained within the variable answer itself. The next time you use the variable answer you will get the results of answer.capitalize
+
+
+
 # I'm a comment!
 
 =begin
