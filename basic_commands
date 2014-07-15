@@ -18,6 +18,9 @@ outputs reversed order version of the string
 
 .downcase
 
+.capitalize
+capitalizes the first letter of a string and makes the rest of the letters lower case.
+
 # I'm a comment!
 
 =begin
