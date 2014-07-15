@@ -1,1 +1,3 @@
-Control flow gives us the flexibility we're looking for. We can select different outcomes depending on information the user types, the result of a computation, or the value returned by another part of the program.
+Environment is the collection of all variables and their values that exist in the program at a given time.
+
+Control flow gives us the flexibility to select different outcomes depending on information the user types, the result of a computation, or the value returned by another part of the program.
