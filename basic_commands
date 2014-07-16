@@ -36,7 +36,8 @@ and (&&), or (||), and not (!)
 Ruby's || is called an inclusive or because it evaluates to true when one or the other or both expressions are true.
 
 
-
+.include? 
+method which evaluates to true if it finds what it's looking for and false otherwise.
 
 
 # I'm a comment!
