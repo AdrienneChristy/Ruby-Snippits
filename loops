@@ -6,7 +6,7 @@ while i < 50
 end
 
 
-
+#==============================
 
 i = 0
 until i == 6
@@ -20,4 +20,11 @@ until counter > 10
   puts counter
   # Add code to update 'counter' here!
   counter += 1
+end
+
+#==============================
+
+
+for work in 1..20
+  puts work
 end
