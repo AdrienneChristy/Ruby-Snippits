@@ -39,6 +39,11 @@ Ruby's || is called an inclusive or because it evaluates to true when one or the
 .include? 
 method which evaluates to true if it finds what it's looking for and false otherwise.
 
+.gsub! 
+method which stands for global substitution.
+
+
+
 
 # I'm a comment!
 
