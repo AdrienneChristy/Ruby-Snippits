@@ -17,3 +17,5 @@ Methods are defined using the keyword def (short for "define"). Methods have thr
 
 
 If a method takes arguments, we say it accepts or expects those arguments. 
+
+The argument is the piece of code you actually put between the method's parentheses when you call it, and the parameter is the name you put between the method's parentheses when you define it. For instance, when we defined square above, we gave it the parameter n (for "number"), but passed it the argument 12 when we called it.
