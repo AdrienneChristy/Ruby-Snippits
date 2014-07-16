@@ -4,3 +4,12 @@ while i < 50
   # Add your code here!
   i = i + 1
 end
+
+
+
+
+i = 0
+until i == 6
+  i += 1
+end
+puts i
