@@ -75,6 +75,7 @@ is the same as:
 end
 
 
+30.times {print "Ruby!"}
 #==============================
 
 i = 3
