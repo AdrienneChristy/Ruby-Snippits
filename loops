@@ -68,3 +68,22 @@ is the same as:
 9.times do
     print "Number nine! "
 end
+
+
+#==============================
+
+i = 3
+while i > 0 do
+  print i
+  i -= 1
+end
+
+is the same as:
+
+
+j = 3
+until j == 0 do
+  print j
+  i -= 1
+end
+#==============================
