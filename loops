@@ -21,9 +21,14 @@ until counter > 10
 end
 #==============================
 
-
 for work in 1..20
   puts work
+end
+
+
+for i in 1..5
+  next if i % 2 == 0
+  print i
 end
 #==============================
 
@@ -33,3 +38,12 @@ loop do
   print "#{i}"
   break if i > 5
 end
+
+
+i = 21
+loop do
+  i -= 1
+  puts "hello world #{i}"
+  break if i <= 0
+end
+
