@@ -45,6 +45,9 @@ The syntax looks like this:
 string_to_change.gsub!(/s/, "th")
 /s/ has to be between slashes instead of between quotes. Note: you cannot put a space between gsub! and the bit in parentheses.
 
+assignment operators 
+=, +=, -=, *=, and /=
+
 
 
 # I'm a comment!
