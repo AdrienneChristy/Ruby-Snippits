@@ -74,13 +74,19 @@ Arrays of arrays are called multidimensional arrays.
 =end
 #=====================================
 HASHES
-a hash is a collection of key-value pairs. Hash syntax looks like this:
+a hash is a collection of key-value pairs. 
 
+Hash literal notation looks like this:
 hash = {
   key1 => value1,
   key2 => value2,
   key3 => value3
 }
+
+Shortcut:
+my_hash = Hash.new
+
+Setting a variable equal to Hash.new creates a new, empty hash; it's the same as setting the variable equal to empty curly braces ({}).
 
 #=====================================
 
