@@ -14,3 +14,6 @@ Methods are defined using the keyword def (short for "define"). Methods have thr
     The header, which includes the def keyword, the name of the method, and any arguments the method takes. (We'll get to arguments in the next section)
     The body, which is the code block that describes the procedures the method carries out. The body is indented two spaces by convention (as with for, if, elsif, and else statements)
     The method ends with the end keyword.
+
+
+If a method takes arguments, we say it accepts or expects those arguments. 
