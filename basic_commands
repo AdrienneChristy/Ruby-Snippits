@@ -69,7 +69,7 @@ array[2]
 # returns "9", since "9"
 # is at index 2
 # This is called access by index.
-
+# Arrays of arrays are called multidimensional arrays
 #=====================================
 
 
