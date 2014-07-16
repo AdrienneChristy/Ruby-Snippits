@@ -58,3 +58,13 @@ numbers.each do |item|
   puts item
 end
 
+#==============================
+.times method is  a super compact for loop: it can perform a task on each item in an object a specified number of times.
+
+9.times {print "Number nine! "}
+
+is the same as:
+
+9.times do
+    print "Number nine! "
+end
