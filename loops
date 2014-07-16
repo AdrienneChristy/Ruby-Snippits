@@ -12,12 +12,17 @@ until i == 6
 end
 puts i
 
-
 counter = 1
 until counter > 10
   puts counter
   # Add code to update 'counter' here!
   counter += 1
+end
+
+j = 1 
+until j > 50  do
+  print j
+  j += 1
 end
 #==============================
 
