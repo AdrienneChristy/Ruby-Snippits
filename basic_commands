@@ -93,6 +93,20 @@ pets["Stevie"] = "cat"
 # value "cat" to the hash
 #=====================================
 
+.to_s
+converts the value from a number to a string.
+
+.sort_by function returns an array of arrays:
+colors = {"blue" => 3, "green" => 1, "red" => 2}
+colors = colors.sort_by do |color, count|
+  count
+end
+colors.reverse!
+
+
+
+#=====================================
+
 # I'm a comment!
 
 =begin
