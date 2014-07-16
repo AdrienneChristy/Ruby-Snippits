@@ -87,7 +87,10 @@ Shortcut:
 my_hash = Hash.new
 
 Setting a variable equal to Hash.new creates a new, empty hash; it's the same as setting the variable equal to empty curly braces ({}).
-
+pets = Hash.new
+pets["Stevie"] = "cat"
+# Adds the key "Stevie" with the
+# value "cat" to the hash
 #=====================================
 
 # I'm a comment!
