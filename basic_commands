@@ -5,7 +5,7 @@ The print command just takes whatever you give it and prints it to the screen.
 puts "What's up?"
 puts (for "put string") is slightly different: it adds a new (blank) line after the thing you want it to print.
 
-
+=====================================
 .length 
 outputs length of the string
 "I love espresso".length
@@ -22,6 +22,7 @@ outputs reversed order version of the string
 capitalizes the first letter of a string and makes the rest of the letters lower case.
 
 ! at the end of capitalize. This modifies the value contained within the variable answer itself. The next time you use the variable answer you will get the results of answer.capitalize
+=====================================
 
 == 
 is equal to
@@ -29,11 +30,16 @@ is equal to
 !=
 is not equal to
 
-
+=====================================
 logical or boolean operators:
 Ruby has three: 
 and (&&), or (||), and not (!)
 Ruby's || is called an inclusive or because it evaluates to true when one or the other or both expressions are true.
+
+
+assignment operators 
+=, +=, -=, *=, and /=
+
 
 
 .include? 
@@ -45,9 +51,11 @@ The syntax looks like this:
 string_to_change.gsub!(/s/, "th")
 /s/ has to be between slashes instead of between quotes. Note: you cannot put a space between gsub! and the bit in parentheses.
 
-assignment operators 
-=, +=, -=, *=, and /=
+=====================================
+1...10 means "go up to but don't include 10." 
+If we use two dots, this tells Ruby to include the highest number in the range.
 
+=====================================
 
 
 # I'm a comment!
