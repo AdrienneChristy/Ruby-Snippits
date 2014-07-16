@@ -103,8 +103,13 @@ colors = colors.sort_by do |color, count|
 end
 colors.reverse!
 
-
-
+#=====================================
+SPLAT
+def what_up(greeting, *bros)
+  bros.each { |bro| puts "#{greeting}, #{bro}!" }
+end
+ 
+what_up("What up", "Justin", "Ben", "Kevin Sorbo", "rudy", "julie")
 #=====================================
 
 # I'm a comment!
