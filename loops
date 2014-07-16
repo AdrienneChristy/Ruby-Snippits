@@ -4,8 +4,6 @@ while i < 50
   # Add your code here!
   i = i + 1
 end
-
-
 #==============================
 
 i = 0
@@ -21,10 +19,17 @@ until counter > 10
   # Add code to update 'counter' here!
   counter += 1
 end
-
 #==============================
 
 
 for work in 1..20
   puts work
+end
+#==============================
+
+i = 0
+loop do
+  i += 1
+  print "#{i}"
+  break if i > 5
 end
