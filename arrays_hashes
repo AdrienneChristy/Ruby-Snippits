@@ -23,3 +23,14 @@ secret_identities = {
 secret_identities.each do |id, name|
     puts "#{name}: #{id}"
 end
+
+
+#=========================
+If you have a hash with a default value, and you try to access a non-existent key, you get that default value.
+h = Hash.new("nothing here")
+
+puts h
+# {}
+
+puts h["kitty"]
+# nothing here
