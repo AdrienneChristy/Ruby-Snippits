@@ -45,3 +45,5 @@ Symbols make good hash keys for a few reasons:
     They're immutable, meaning they can't be changed once they're created;
     Only one copy of any symbol exists at a given time, so they save memory;
     Symbol-as-keys are faster than strings-as-keys because of the above two reasons.
+    
+    When you're looking at someone else's code, you might see .to_sym or .intern (or both!) when converting strings to symbols.
