@@ -35,3 +35,7 @@ end
 Abstraction is an important idea in computer science, and you can think of it as meaning "making something simpler."Passing a block to a method is a great way of abstracting certain tasks from the method and defining those tasks when we call the method. 
 
 combined comparison operator looks like this: <=>. It returns 0 if the first operand (item to be compared) equals the second, 1 if first operand is greater than the second, and -1 if the first operand is less than the second.
+
+A Ruby symbol ss a sort of name. It's important to remember that symbols aren't strings.
+
+
