@@ -28,6 +28,15 @@ end
 #=========================
 #Ruby hashes are just collections of key-value pairs, where a unique key is associated with some value.
 #Keys must be unique, but values can repeat. 
+#We can create hashes several ways, but two of the most popular are hash literal notation:
+
+new_hash = { "one" => 1 }
+
+#and hash constructor notation:
+
+new_hash = Hash.new
+
+
 #If you have a hash with a default value, and you try to access a non-existent key, you get that default value.
 h = Hash.new("nothing here")
 
