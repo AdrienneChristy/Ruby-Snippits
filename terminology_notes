@@ -47,3 +47,5 @@ Symbols make good hash keys for a few reasons:
     Symbol-as-keys are faster than strings-as-keys because of the above two reasons.
     
     When you're looking at someone else's code, you might see .to_sym or .intern (or both!) when converting strings to symbols.
+    
+CRUD, for create, read, update, and delete (respectively). These are the actions you take when you update an entry in a database, ask a website for information, or write a blog post. 
