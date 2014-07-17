@@ -55,3 +55,16 @@ puts h["kitty"]
 # This block prints the number 5 for each item.
 # (It chooses to ignore the passed item, which is allowed.)
 [1, 2, 3, 4, 5].each { |i| puts i*5 }
+
+
+#=========================Hashes of symbols have changed in Ruby 1.9!
+new_hash = { one: 1,
+  two: 2,
+  three: 3
+}
+
+The two changes are:
+
+    You put the colon at the end of the symbol, not at the beginning;
+    You don't need the hash rocket anymore.
+
