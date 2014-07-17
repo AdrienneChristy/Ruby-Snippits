@@ -24,6 +24,12 @@ capitalizes the first letter of a string and makes the rest of the letters lower
 ! at the end of capitalize. This modifies the value contained within the variable answer itself. The next time you use the variable answer you will get the results of answer.capitalize
 
 .sort!
+
+books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
+# To sort our books in ascending order
+books.sort! { |firstBook, secondBook| firstBook <=> secondBook }
+# Sort your books in descending order
+books.sort! { |firstBook, secondBook| secondBook <=> firstBook }
 #=====================================
 
 == 
