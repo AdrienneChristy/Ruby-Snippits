@@ -34,6 +34,13 @@ books.sort! { |firstBook, secondBook| secondBook <=> firstBook }
 .object_id 
 #method gets the ID of an object—it's how Ruby knows whether two objects are the exact same object. 
 
+:sasquatch.to_s
+# ==> "sasquatch"
+
+"sasquatch".to_sym
+# ==> :sasquatch
+
+
 #=====================================
 
 == 
