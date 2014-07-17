@@ -30,6 +30,10 @@ books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brie
 books.sort! { |firstBook, secondBook| firstBook <=> secondBook }
 # Sort your books in descending order
 books.sort! { |firstBook, secondBook| secondBook <=> firstBook }
+
+.object_id 
+#method gets the ID of an object—it's how Ruby knows whether two objects are the exact same object. 
+
 #=====================================
 
 == 
