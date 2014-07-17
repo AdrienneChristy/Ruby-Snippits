@@ -25,3 +25,8 @@ Splat arguments are arguments preceded by a *, which signals to Ruby: "Hey Ruby,
 It's a Ruby best practice to end method names that produce boolean values with a question mark.
 
 Blocks are a way of creating methods that don't have a name. (These are similar to anonymous functions in JavaScript or lambdas in Python.)
+1.times do
+  puts "I'm a code block!"
+end
+
+1.times { puts "As am I!" }
