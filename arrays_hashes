@@ -91,3 +91,9 @@ my_hash.each_key { |k| print k, " " }
 my_hash.each_value { |v| print v, " " }
 # ==> 1 2 3
 
+
+#=========================
+
+
+.delete
+#Ruby makes it easy to remove a movie/rating pair from our hash: we just write movies.delete(title)!
