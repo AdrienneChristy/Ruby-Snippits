@@ -38,4 +38,4 @@ combined comparison operator looks like this: <=>. It returns 0 if the first ope
 
 A Ruby symbol ss a sort of name. It's important to remember that symbols aren't strings.
 
-
+Symbols are primarily used either as hash keys or for referencing method names. 
