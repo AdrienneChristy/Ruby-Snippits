@@ -68,3 +68,17 @@ The two changes are:
     You put the colon at the end of the symbol, not at the beginning;
     You don't need the hash rocket anymore.
 
+
+#=========================Working just with keys or values
+new_hash = { one: 1,
+.each_key
+.each_value
+
+my_hash = { one: 1, two: 2, three: 3 }
+
+my_hash.each_key { |k| print k, " " }
+# ==> one two three
+
+my_hash.each_value { |v| print v, " " }
+# ==> 1 2 3
+
