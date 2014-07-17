@@ -126,6 +126,9 @@ pets = Hash.new
 pets["Stevie"] = "cat"
 # Adds the key "Stevie" with the
 # value "cat" to the hash
+
+.delete
+#Ruby makes it easy to remove a movie/rating pair from our hash: we just write movies.delete(title)!
 #=====================================
 
 .to_s
