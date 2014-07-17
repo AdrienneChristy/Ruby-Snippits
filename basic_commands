@@ -119,3 +119,10 @@ I'm a multiline comment!
 I don't need any # symbols.
 Remember begin and end must be on their own lines.
 =end
+
+
+#=====================================
+# method that capitalizes first letter of a word
+def capitalize(string) 
+  puts "#{string[0].upcase}#{string[1..-1]}"
+end
