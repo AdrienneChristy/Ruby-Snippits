@@ -20,4 +20,6 @@ If a method takes arguments, we say it accepts or expects those arguments.
 
 The argument is the piece of code you actually put between the method's parentheses when you call it, and the parameter is the name you put between the method's parentheses when you define it. For instance, when we defined square above, we gave it the parameter n (for "number"), but passed it the argument 12 when we called it.
 
-splat arguments. Splat arguments are arguments preceded by a *, which signals to Ruby: "Hey Ruby, I don't know how many arguments there are about to be, but it could be more than one."
+Splat arguments are arguments preceded by a *, which signals to Ruby: "Hey Ruby, I don't know how many arguments there are about to be, but it could be more than one.
+
+It's a Ruby best practice to end method names that produce boolean values with a question mark.
