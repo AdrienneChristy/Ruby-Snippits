@@ -23,3 +23,5 @@ The argument is the piece of code you actually put between the method's parenthe
 Splat arguments are arguments preceded by a *, which signals to Ruby: "Hey Ruby, I don't know how many arguments there are about to be, but it could be more than one.
 
 It's a Ruby best practice to end method names that produce boolean values with a question mark.
+
+Blocks are a way of creating methods that don't have a name. (These are similar to anonymous functions in JavaScript or lambdas in Python.)
