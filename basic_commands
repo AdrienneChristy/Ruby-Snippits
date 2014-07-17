@@ -134,3 +134,11 @@ Remember begin and end must be on their own lines.
 def capitalize(string) 
   puts "#{string[0].upcase}#{string[1..-1]}"
 end
+
+
+#=====================================
+def alphabetize(arr, rev=false)
+end
+
+rev=false tells Ruby that alphabetize has a second parameter, rev (for "reverse") that will default to false if the user doesn't type in two arguments.
+
