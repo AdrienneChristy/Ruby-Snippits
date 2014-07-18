@@ -70,4 +70,8 @@ And either way, when you call add(1,1), you'll get 2.
 #======================
 
 
+short-circuit evaluation: Ruby doesn't look at both expressions unless it has to; if it sees
 
+false && true
+
+it stops reading as soon as it sees && because it knows false && anything must be false.
