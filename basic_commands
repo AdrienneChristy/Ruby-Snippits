@@ -76,6 +76,8 @@ assignment operators
 =, +=, -=, *=, and /=
 
 
+conditional assignment operator is made up of the or (||) logical operator and the normal = assignment operator.
+||=
 
 .include? 
 method which evaluates to true if it finds what it's looking for and false otherwise.
