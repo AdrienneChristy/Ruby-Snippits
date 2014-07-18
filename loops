@@ -93,3 +93,10 @@ until j == 0 do
   i -= 1
 end
 #==============================
+favorite_things = ["Ruby", "espresso", "candy"]
+
+puts "A few of my favorite things:"
+
+favorite_things.each do |thing|
+  puts "I love #{thing}!"
+end
