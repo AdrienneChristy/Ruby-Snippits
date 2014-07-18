@@ -65,6 +65,10 @@ my_hash.each_value { |v| print v, " " }
 
 #=====================================
 
+.respond_to? takes a symbol and returns true if an object can receive that method and false otherwise
+
+#=====================================
+
 == 
 is equal to
 
