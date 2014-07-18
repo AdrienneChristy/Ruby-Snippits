@@ -49,3 +49,25 @@ Symbols make good hash keys for a few reasons:
     When you're looking at someone else's code, you might see .to_sym or .intern (or both!) when converting strings to symbols.
     
 CRUD, for create, read, update, and delete (respectively). These are the actions you take when you update an entry in a database, ask a website for information, or write a blog post. 
+
+
+#======================
+Implicit Return in Ruby: For instance, if you don't tell a JavaScript function exactly what to return, it'll return undefined. For Python, the default return value is None. But for Ruby, it's something different: Ruby's methods will return the result of the last evaluated expression.
+
+This means that if you have a Ruby method like this one:
+
+def add(a,b)
+  return a + b
+end
+
+You can simply write:
+
+def add(a,b)
+  a + b
+end
+
+And either way, when you call add(1,1), you'll get 2. 
+#======================
+
+
+
