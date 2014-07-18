@@ -62,6 +62,8 @@ my_hash.each_value { |v| print v, " " }
 .downto
 "A".upto("Z") { |letter| puts letter }
 
+.collect #takes a block and applies the expression in the block to every element in an array.
+
 
 #=====================================
 
