@@ -67,6 +67,13 @@ my_hash.each_value { |v| print v, " " }
 
 .respond_to? takes a symbol and returns true if an object can receive that method and false otherwise
 .push  can be replaced by <<, the concatenation operator (also known as "the shovel") 
+
+drink = "espresso"
+"I love " + drink
+# ==> I love espresso
+"I love " << drink
+# ==> I love espresso
+
 #=====================================
 
 == 
