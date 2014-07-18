@@ -92,3 +92,7 @@ end
 
 block_test { puts ">>> We're in the block!" }
 #======================
+
+Blocks are not objects, and this is one of the very few exceptions to the "everything is an object" rule in Ruby.
+
+
