@@ -32,3 +32,14 @@ end
 
 Blocks can be combined with methods like .each and .times to execute an instruction for each element in a collection (like a hash or array).
 =end
+
+
+#================
+5.times { |x| puts "I'm a block!"}
+#above is same as below
+5.times do
+    puts "I'm a block!"
+end
+
+
+#================
