@@ -64,7 +64,7 @@ my_hash.each_value { |v| print v, " " }
 
 .collect #takes a block and applies the expression in the block to every element in an array.
 
-
+.floor method rounds a float (a number with a decimal) down to the nearest integer.
 #=====================================
 
 .respond_to? takes a symbol and returns true if an object can receive that method and false otherwise
