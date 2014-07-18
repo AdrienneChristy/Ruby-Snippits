@@ -191,3 +191,12 @@ end
 
 rev=false tells Ruby that alphabetize has a second parameter, rev (for "reverse") that will default to false if the user doesn't type in two arguments.
 
+
+#=====================================
+ for num in (1..n)
+    prime_array.push(prime.next)
+  end
+  
+#ABOVE IS SAME AS BELOW
+n.times {prime_array.push(prime.next) }
+#=====================================
