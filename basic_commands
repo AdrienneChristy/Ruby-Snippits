@@ -60,6 +60,9 @@ my_hash.each_value { |v| print v, " " }
 
 .upto 
 .downto
+"A".upto("Z") { |letter| puts letter }
+
+
 #=====================================
 
 == 
