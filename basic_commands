@@ -57,6 +57,9 @@ my_hash.each_value { |v| print v, " " }
 .to_sym will convert a string to a symbol
 .to_s will convert to a string
 
+
+.upto 
+.downto
 #=====================================
 
 == 
